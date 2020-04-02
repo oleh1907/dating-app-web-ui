@@ -1,19 +1,18 @@
 /* tslint:disable:no-unused-variable */
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { By } from '@angular/platform-browser';
-import { DebugElement } from '@angular/core';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
+import { By } from "@angular/platform-browser";
+import { DebugElement } from "@angular/core";
 
-import { ValueComponent } from './value.component';
+import { ValueComponent } from "./value.component";
 
-describe('ValueComponent', () => {
+describe("ValueComponent", () => {
   let component: ValueComponent;
   let fixture: ComponentFixture<ValueComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ValueComponent ]
-    })
-    .compileComponents();
+      declarations: [ValueComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -22,7 +21,7 @@ describe('ValueComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });
